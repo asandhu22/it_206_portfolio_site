@@ -1,0 +1,95 @@
+@charset "utf-8";
+/*  IT 206: Summer 2019
+    Styles used for project page
+    Name: Amreet Sandhu
+    Date: 8/10/2019
+    Filename: portfolio_styles.css */
+
+/* Project color theme
+    black: #000022
+    dark purple: #261E39
+    mint: #E5FFDE
+    gray: #ABA9AF
+    white: #FEFEFD */
+
+/* Header Styles */
+img#amreet {
+    width: 100px;
+    height: auto;
+    border: 1px solid #ABA9AF;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section A */
+
+#section-a {
+    background: #000022;
+    color: #FEFEFD;
+    padding-bottom: 2em;
+}
+#section-a img {
+    width: 100%;
+    height: auto;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+/* Section B */
+
+#section-b {
+    padding: 2em 1em 1em;
+}
+
+#section-b ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+/* Section C */
+
+#section-c {
+    background: #fff;
+    color: #333;
+    padding: 2em;
+}
+
+/* Section D / Boxes */
+
+#section-d .box {
+    padding: 2em;
+    background-color: #fff;
+    color: #261E39;
+    border: 1px solid #261E39;
+}
+#section-d ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Footer */
+
+#main-footer {
+    padding: 1em;
+    background: #000;
+    color: #ABA9AF;
+    text-align: center;
+}
